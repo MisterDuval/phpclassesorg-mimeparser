@@ -1,4 +1,5 @@
 {
+	"name" : "misterduval/phpclassesorg-mimeparser",
 	"autoload":
 	{
 		"classmap": ["mime_parser.php", "rfc822_addresses.php"]
