@@ -1,0 +1,22 @@
+Return-Path: <mlemos@acm.org>
+To: Manuel Lemos <mlemos@linux.local>
+Subject: Testing Manuel Lemos' MIME E-mail composing and sending PHP class: Message with file with a quote in the name
+From: mlemos <mlemos@acm.org>
+Reply-To: mlemos <mlemos@acm.org>
+Sender: mlemos@acm.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="652b8c4dcb00cdcdda1e16af36781caf"
+Message-ID: <20050430192829.0489.mlemos@acm.org>
+Date: Sat, 30 Apr 2005 19:28:29 -0300
+
+
+--652b8c4dcb00cdcdda1e16af36781caf
+Content-Type: text/plain; name="a\"b.txt"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="a\"b.txt"
+
+VGhpcyBpcyBqdXN0IGEgcGxhaW4gdGV4dCBhdHRhY2htZW50IGZpbGUgbmFtZWQgYXR0YWNobWVu
+dC50eHQgLg==
+
+--652b8c4dcb00cdcdda1e16af36781caf--
+

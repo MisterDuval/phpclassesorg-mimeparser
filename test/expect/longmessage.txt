@@ -1,0 +1,215 @@
+MIME message decoding successful.
+1 message was found.
+Message 1:
+array(7) {
+  ["Headers"]=>
+  array(49) {
+    ["return-path:"]=>
+    array(2) {
+      [0]=>
+      string(22) "<japoeunp@hotmail.com>"
+      [1]=>
+      string(22) "<japoeunp@hotmail.com>"
+    }
+    ["delivered-to:"]=>
+    string(23) "jonnny@miami-dice.co.uk"
+    ["received:"]=>
+    array(5) {
+      [0]=>
+      string(191) "from violet.xenserver.co.uk	by violet.xenserver.co.uk with LMTP	id qBHcI7LKml9FxzIAYrQLqw	(envelope-from <japoeunp@hotmail.com>)	for <jonnny@miami-dice.co.uk>; Thu, 29 Oct 2020 13:59:14 +0000"
+      [1]=>
+      string(354) "from mail-oln040092254105.outbound.protection.outlook.com ([40.92.254.105]:29481 helo=APC01-PU1-obe.outbound.protection.outlook.com)	by violet.xenserver.co.uk with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	(Exim 4.93)	(envelope-from <japoeunp@hotmail.com>)	id 1kY8SJ-00DxYw-WD	for jonnny@miami-dice.co.uk; Thu, 29 Oct 2020 13:59:14 +0000"
+      [2]=>
+      string(302) "from PU1APC01FT013.eop-APC01.prod.protection.outlook.com (2a01:111:e400:7ebe::45) by PU1APC01HT068.eop-APC01.prod.protection.outlook.com (2a01:111:e400:7ebe::323) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3520.15; Thu, 29 Oct 2020 13:58:16 +0000"
+      [3]=>
+      string(304) "from PS1PR0601MB3675.apcprd06.prod.outlook.com (2a01:111:e400:7ebe::44) by PU1APC01FT013.mail.protection.outlook.com (2a01:111:e400:7ebe::78) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3520.15 via Frontend Transport; Thu, 29 Oct 2020 13:58:16 +0000"
+      [4]=>
+      string(214) "from PS1PR0601MB3675.apcprd06.prod.outlook.com ([fe80::65ed:e320:1c31:1695]) by PS1PR0601MB3675.apcprd06.prod.outlook.com ([fe80::65ed:e320:1c31:1695%7]) with mapi id 15.20.3499.027; Thu, 29 Oct 2020 13:58:16 +0000"
+    }
+    ["envelope-to:"]=>
+    string(23) "jonnny@miami-dice.co.uk"
+    ["delivery-date:"]=>
+    string(31) "Thu, 29 Oct 2020 13:59:14 +0000"
+    ["arc-seal:"]=>
+    string(410) "i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; b=KKU/kthPXLl8CnAmBXXsD1QQWr4evL4ymaLwgHgRi5eSnOe2d2sQxrhcZ1VvLSvW2DQEQoNAm6NUtTC5uRUnBDS0n+g1E5/t1z8oFbzdioCIT6rL77ta3MVcaQ/o+gRa6dIwiNfu8z5GxAujOOu57gCfnCw3/gLeOHH01KtP4ezEB/DvAU9bC8eyso1T7nv+HT0riTjZOywGwDHnVb1aIPPIUiOQrrEi+cfLQRiCer01d94U8Wp+FUECrVYbr4uZGl8mbTwU4oZL1rJ25ubYG54e1ktaPJRa2YEitgJEF5sS8Z503c3RjzzBvvHkc/Kl6ypXcovP9xxeoSrS7YIPKA=="
+    ["arc-message-signature:"]=>
+    string(555) "i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com; s=arcselector9901; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=NUSuxgSF4fNUuTts93/OAIsK9q9w8XhbybHWH/oRmXo=; b=VU2clBW8reAfnfCef0DeEDlBzcCU2u288YCjTvB0ekvBkJGSdI657WyS8KR7JSy0KcPWRfGbN9GJaETaasoa7bLdfuB6K9foup+vSqlA1witS5JQXQM/vJCKx67DbT8/8emLrKi7yDD2qjtRsb6HfvbwAGGvmPyUeyfTvRv6js+4YUbe5eN6CCdJEploBXDrWjFXHpSCwVCL1oF6rgrJf0+Td+ufX0QEHbOz2uJWj4yz0A8hK2yV+2JDVW7GiBwZMrO4yLNXYck/0HQRyYFe8I86xUBJWp/0IITCTe96x5L/H3lqmGkh4uRt8IsXT/2jBEm5CmXLxJZAMR8RONG9BQ=="
+    ["arc-authentication-results:"]=>
+    string(66) "i=1; mx.microsoft.com 1; spf=none; dmarc=none; dkim=none; arc=none"
+    ["dkim-signature:"]=>
+    string(547) "v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com; s=selector1; h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck; bh=NUSuxgSF4fNUuTts93/OAIsK9q9w8XhbybHWH/oRmXo=; b=JRkih9HxwazdzH6MSzSetJMcRwvDr+e97VnoDCQYJf9qQqgtQvzMZR0Z+d2Gu74Ip3ebcvx5oYlOpV15yVZAqUmUeirpF2rdkmMWQiaDQMq9SLiF09eMDkDfEdGLD4V+C36QIISRamgyagIsC72/UB6OyxpXoAjP0SFxbyItvWVgB9EVVsSJLOKXWgRWiYSZxMLye3OQUqdWoiQ9Tw/o8uywLTvcojOizZaS2SrYWajYScBmMiCh58dUarKzrfXmR/WisfBepCf1ia7BKttjalhuJBcMyKfM923X5IbZ+Yw+gVpLtzwGUyPt2cobOAxKna11whmpWdtoBeXRR/hKOg=="
+    ["from:"]=>
+    string(34) "Jamaica Poe <japoeunp@hotmail.com>"
+    ["to:"]=>
+    string(18) "support@my.company"
+    ["subject:"]=>
+    string(102) "thankful that I had the chance to written report, that I could learn and let alone the chance $4454.32"
+    ["thread-topic:"]=>
+    string(102) "thankful that I had the chance to written report, that I could learn and let alone the chance $4454.32"
+    ["thread-index:"]=>
+    string(32) "AQHWrfuHFQ6EC5DxDEG0hktDfP8BQg=="
+    ["date:"]=>
+    string(31) "Thu, 29 Oct 2020 13:58:16 +0000"
+    ["message-id:"]=>
+    string(84) "<PS1PR0601MB36750BD00EA89E1482FA98A2D5140@PS1PR0601MB3675.apcprd06.prod.outlook.com>"
+    ["accept-language:"]=>
+    string(5) "en-US"
+    ["content-language:"]=>
+    string(5) "en-US"
+    ["x-ms-has-attach:"]=>
+    string(3) "yes"
+    ["x-ms-tnef-correlator:"]=>
+    string(0) ""
+    ["x-incomingtopheadermarker:"]=>
+    string(194) "OriginalChecksum:F29893979CC0F318539CFBE7837D9AF24B3138F68568814557FCEFB9E2B29E15;UpperCasedChecksum:CB03C669F747A2BC407B2616111C19885C665247F058AE9AD47D6DC952AF24E9;SizeAsReceived:9522;Count:41"
+    ["x-tmn:"]=>
+    string(34) "[HPDb9F9LlPS7iY6PEMh8e6LwL83jrjOM]"
+    ["x-ms-publictraffictype:"]=>
+    string(5) "Email"
+    ["x-incomingheadercount:"]=>
+    string(2) "41"
+    ["x-eopattributedmessage:"]=>
+    string(1) "0"
+    ["x-ms-office365-filtering-correlation-id:"]=>
+    string(36) "0a5172b1-080b-416d-02f7-08d87c12af1f"
+    ["x-ms-exchange-slblob-mailprops:"]=>
+    string(672) "KvCwBtHRxSnRTX+Gpnu8+r+btrbXhe1bKafs2OYpwV7YwfwLb/Kzv7smCuCmdXmRrPzgGMsdYpxp7uj/VctABycvZi2vvqgq28FbUIjMoGSzyVRruEcuIfs/p5HNZHSknRDnAAcWyfC0VEBDrfm+s1P+je4N6M7rJOQHeYFM3PtZQ9ZL1GFMuISD/O4rxIj0BnUHlLsilauxhYsOQqJ0E9i4eZEKf8FgOeRP///nI7Umf8hLSSai2cpfufADqc5F0TZJPQnV6PcsxuMPv1LKsqSVRvFRkOaptmEJ3PbaivKUKj1ZYpkUe0wdg1ZgYEu9HxE85CYgg0S1t8tzHcQ6Z+uz9TByKEzsUIG6BotNgFwSfiMwuDQAH1XLrhcbpqa6/ECAekFN6X0p2LMj3sPumWYoBjlMronIBtjxSNLXu1/VypYME2g7Vamq7tRppJa6ZtjcjYZkKF3gGJUCKDVnN3dfeKSL6wE4D/aflJXISl8nT/f3dxxRoJAE4be8iiJcfyAmk01e4S8lJu3Ou0DMDoxqGiVpwzoExNa4Xwl9XmiTDH0vwzLLs2mBjq2UA1jTEirBuCLMw8KquRwqiti4q8ZwuhVRQSkRk7nyyHztPN0ratfQN77UffToJDFEE9Af9WxYlI6mjE+Vo//+bYGgT69xQrVIFe/Q"
+    ["x-ms-traffictypediagnostic:"]=>
+    string(14) "PU1APC01HT068:"
+    ["x-microsoft-antispam:"]=>
+    string(6) "BCL:0;"
+    ["x-microsoft-antispam-message-info:"]=>
+    string(216) "63swzVCqv2rAYXNqhYzT9vSzRPp+cAVYyOvT2Mj05ccFhXJCE9VoIsVCJ7P/x8Afurj/cz8TTgCf3+ftdCAETm9BR3YRv501qxwuEpr9Y8138ZtYktHFtqLJQD6gAEUS2xqFOAX8GcGRbv4ivUE3Zc79/zO8aAyhrH1ztmCN3K0ZjGrV7ladXaKbbZ2LWPZKFQ+oJr2TuSluO0Jb9mF6gg=="
+    ["x-ms-exchange-antispam-messagedata:"]=>
+    string(152) "++T5++BTJOqLy0e59PDE+TsDIv7T0HYmNmR7jarIfrS2AxJESyw+K6ssWdBC58WaXxw6w7E2gUNPe/NJWZKnKzAZ/Tq3AYzucFlqHOkFdQoxwWZoquUNffSRPAl8A2JyVME7XIVmlb5QSnawMNgM2Q=="
+    ["x-ms-exchange-transport-forked:"]=>
+    string(4) "True"
+    ["content-type:"]=>
+    string(9) "text/html"
+    ["content-transfer-encoding:"]=>
+    string(6) "base64"
+    ["mime-version:"]=>
+    string(3) "1.0"
+    ["x-originatororg:"]=>
+    string(11) "hotmail.com"
+    ["x-ms-exchange-crosstenant-authas:"]=>
+    string(9) "Anonymous"
+    ["x-ms-exchange-crosstenant-authsource:"]=>
+    string(51) "PU1APC01FT013.eop-APC01.prod.protection.outlook.com"
+    ["x-ms-exchange-crosstenant-rms-persistedconsumerorg:"]=>
+    array(2) {
+      [0]=>
+      string(36) "00000000-0000-0000-0000-000000000000"
+      [1]=>
+      string(36) "00000000-0000-0000-0000-000000000000"
+    }
+    ["x-ms-exchange-crosstenant-network-message-id:"]=>
+    string(36) "0a5172b1-080b-416d-02f7-08d87c12af1f"
+    ["x-ms-exchange-crosstenant-originalarrivaltime:"]=>
+    string(31) "29 Oct 2020 13:58:16.0996 (UTC)"
+    ["x-ms-exchange-crosstenant-fromentityheader:"]=>
+    string(8) "Internet"
+    ["x-ms-exchange-crosstenant-id:"]=>
+    string(36) "84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa"
+    ["x-ms-exchange-transport-crosstenantheadersstamped:"]=>
+    string(13) "PU1APC01HT068"
+    ["x-spam-status:"]=>
+    string(13) "No, score=1.1"
+    ["x-spam-score:"]=>
+    string(2) "11"
+    ["x-spam-bar:"]=>
+    string(1) "+"
+    ["x-ham-report:"]=>
+    string(1510) "Spam detection software, running on the system "violet.xenserver.co.uk", has NOT identified this incoming email as spam.  The original message has been attached to this so you can view it or label similar future email.  If you have any questions, see root\@localhost for details. Content preview:  ðŸ’¡in process of discussion !ðŸ’¡ / correspond displacement    - BZ07OPI7MTRFIW ðŸ’¡in process of discussion !ðŸ’¡ / Content analysis details:   (1.1 points, 5.0 required)  pts rule name              description ---- ---------------------- --------------------------------------------------  0.8 BAYES_50               BODY: Bayes spam probability is 40 to 60%                             [score: 0.5004569]  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail                             provider                             [japoeunp[at]hotmail.com]  0.0 HTML_MESSAGE           BODY: HTML included in message -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily                             valid -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from                             author's domain -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from                             envelope-from domain 0.0 LOTS_OF_MONEY           Huge... sums of money 0.5 KAM_NUMSUBJECT          Subject ends in numbers excluding current years"
+    ["x-spam-flag:"]=>
+    string(2) "NO"
+  }
+  ["Parts"]=>
+  array(0) {
+  }
+  ["Position"]=>
+  int(0)
+  ["Body"]=>
+  string(162) "<!DOCTYPE><html><head><title>foo</title></head><body><table class="foo"><thead><tr><td>foo</td></thead><tbody><tr><td>foo1</td></tr></tbody></table></body></html>"
+  ["BodyPart"]=>
+  int(1)
+  ["BodyLength"]=>
+  int(162)
+  ["ExtractedAddresses"]=>
+  array(3) {
+    ["return-path:"]=>
+    array(2) {
+      [0]=>
+      array(1) {
+        ["address"]=>
+        string(20) "japoeunp@hotmail.com"
+      }
+      [1]=>
+      array(1) {
+        ["address"]=>
+        string(20) "japoeunp@hotmail.com"
+      }
+    }
+    ["from:"]=>
+    array(1) {
+      [0]=>
+      array(2) {
+        ["address"]=>
+        string(20) "japoeunp@hotmail.com"
+        ["name"]=>
+        string(11) "Jamaica Poe"
+      }
+    }
+    ["to:"]=>
+    array(1) {
+      [0]=>
+      array(1) {
+        ["address"]=>
+        string(18) "support@my.company"
+      }
+    }
+  }
+}
+array(8) {
+  ["Type"]=>
+  string(4) "html"
+  ["Description"]=>
+  string(12) "HTML message"
+  ["Subject"]=>
+  string(102) "thankful that I had the chance to written report, that I could learn and let alone the chance $4454.32"
+  ["Date"]=>
+  string(31) "Thu, 29 Oct 2020 13:58:16 +0000"
+  ["From"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["address"]=>
+      string(20) "japoeunp@hotmail.com"
+      ["name"]=>
+      string(11) "Jamaica Poe"
+    }
+  }
+  ["To"]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      ["address"]=>
+      string(18) "support@my.company"
+    }
+  }
+  ["Return-path"]=>
+  array(2) {
+    [0]=>
+    array(1) {
+      ["address"]=>
+      string(20) "japoeunp@hotmail.com"
+    }
+    [1]=>
+    array(1) {
+      ["address"]=>
+      string(20) "japoeunp@hotmail.com"
+    }
+  }
+  ["Data"]=>
+  string(162) "<!DOCTYPE><html><head><title>foo</title></head><body><table class="foo"><thead><tr><td>foo</td></thead><tbody><tr><td>foo1</td></tr></tbody></table></body></html>"
+}

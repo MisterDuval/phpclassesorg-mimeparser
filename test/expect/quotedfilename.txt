@@ -1,0 +1,155 @@
+MIME message decoding successful.
+1 message was found.
+Message 1:
+array(4) {
+  ["Headers"]=>
+  array(10) {
+    ["return-path:"]=>
+    string(16) "<mlemos@acm.org>"
+    ["to:"]=>
+    string(33) "Manuel Lemos <mlemos@linux.local>"
+    ["subject:"]=>
+    string(109) "Testing Manuel Lemos' MIME E-mail composing and sending PHP class: Message with file with a quote in the name"
+    ["from:"]=>
+    string(23) "mlemos <mlemos@acm.org>"
+    ["reply-to:"]=>
+    string(23) "mlemos <mlemos@acm.org>"
+    ["sender:"]=>
+    string(14) "mlemos@acm.org"
+    ["mime-version:"]=>
+    string(3) "1.0"
+    ["content-type:"]=>
+    string(60) "multipart/mixed; boundary="652b8c4dcb00cdcdda1e16af36781caf""
+    ["message-id:"]=>
+    string(36) "<20050430192829.0489.mlemos@acm.org>"
+    ["date:"]=>
+    string(31) "Sat, 30 Apr 2005 19:28:29 -0300"
+  }
+  ["Parts"]=>
+  array(1) {
+    [0]=>
+    array(8) {
+      ["Headers"]=>
+      array(3) {
+        ["content-type:"]=>
+        string(27) "text/plain; name="a\"b.txt""
+        ["content-transfer-encoding:"]=>
+        string(6) "base64"
+        ["content-disposition:"]=>
+        string(31) "attachment; filename="a\"b.txt""
+      }
+      ["Parts"]=>
+      array(0) {
+      }
+      ["Position"]=>
+      int(504)
+      ["FileName"]=>
+      string(7) "a"b.txt"
+      ["FileDisposition"]=>
+      string(10) "attachment"
+      ["Body"]=>
+      string(64) "This is just a plain text attachment file named attachment.txt ."
+      ["BodyPart"]=>
+      int(1)
+      ["BodyLength"]=>
+      int(64)
+    }
+  }
+  ["Position"]=>
+  int(0)
+  ["ExtractedAddresses"]=>
+  array(4) {
+    ["return-path:"]=>
+    array(1) {
+      [0]=>
+      array(1) {
+        ["address"]=>
+        string(14) "mlemos@acm.org"
+      }
+    }
+    ["to:"]=>
+    array(1) {
+      [0]=>
+      array(2) {
+        ["address"]=>
+        string(18) "mlemos@linux.local"
+        ["name"]=>
+        string(12) "Manuel Lemos"
+      }
+    }
+    ["from:"]=>
+    array(1) {
+      [0]=>
+      array(2) {
+        ["address"]=>
+        string(14) "mlemos@acm.org"
+        ["name"]=>
+        string(6) "mlemos"
+      }
+    }
+    ["reply-to:"]=>
+    array(1) {
+      [0]=>
+      array(2) {
+        ["address"]=>
+        string(14) "mlemos@acm.org"
+        ["name"]=>
+        string(6) "mlemos"
+      }
+    }
+  }
+}
+array(11) {
+  ["Type"]=>
+  string(4) "text"
+  ["Description"]=>
+  string(12) "Text message"
+  ["Data"]=>
+  string(64) "This is just a plain text attachment file named attachment.txt ."
+  ["FileName"]=>
+  string(7) "a"b.txt"
+  ["FileDisposition"]=>
+  string(10) "attachment"
+  ["Subject"]=>
+  string(109) "Testing Manuel Lemos' MIME E-mail composing and sending PHP class: Message with file with a quote in the name"
+  ["Date"]=>
+  string(31) "Sat, 30 Apr 2005 19:28:29 -0300"
+  ["From"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["address"]=>
+      string(14) "mlemos@acm.org"
+      ["name"]=>
+      string(6) "mlemos"
+    }
+  }
+  ["To"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["address"]=>
+      string(18) "mlemos@linux.local"
+      ["name"]=>
+      string(12) "Manuel Lemos"
+    }
+  }
+  ["Return-path"]=>
+  array(1) {
+    [0]=>
+    array(1) {
+      ["address"]=>
+      string(14) "mlemos@acm.org"
+    }
+  }
+  ["Reply-to"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["address"]=>
+      string(14) "mlemos@acm.org"
+      ["name"]=>
+      string(6) "mlemos"
+    }
+  }
+}
