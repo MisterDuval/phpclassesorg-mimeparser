@@ -1,5 +1,9 @@
 {
 	"name" : "misterduval/phpclassesorg-mimeparser",
+	"minimum-stability": "dev",
+	"require": {
+    		"php": ">=7.4"
+	},
 	"autoload":
 	{
 		"classmap": ["mime_parser.php", "rfc822_addresses.php"]
